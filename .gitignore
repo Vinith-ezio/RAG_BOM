@@ -51,7 +51,7 @@ data/output/hybrid_v2_evaluation.json
 data/output/embedding_index.faiss
 data/output/embedding_evaluation.json
 data/output/bm25_evaluation.json
-
+data/output/BHEL_basic
 # ============================================================
 # Vector / Embedding Artifacts
 # ============================================================
