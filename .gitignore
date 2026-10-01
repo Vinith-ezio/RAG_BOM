@@ -45,7 +45,12 @@ OllamaModels/
 # Generated Pipeline Outputs
 # ============================================================
 
-data/output/
+data/output/hybrid_evaluation.json
+data/output/hybrid_v3_evaluation.json
+data/output/hybrid_v2_evaluation.json
+data/output/embedding_index.faiss
+data/output/embedding_evaluation.json
+data/output/bm25_evaluation.json
 
 # ============================================================
 # Vector / Embedding Artifacts

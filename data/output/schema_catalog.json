@@ -1,0 +1,458 @@
+{
+  "schema": {
+    "name": "document-derived-schema-catalog",
+    "version": "1.0"
+  },
+  "source": {
+    "input_schema": {
+      "name": "complex-table-retrieval-enriched",
+      "version": "1.0"
+    },
+    "source": {
+      "name": "desuperheater_instrument_specifications",
+      "version": "1.0",
+      "document": "Instrument Specification - Desuperheater"
+    }
+  },
+  "statistics": {
+    "records_analyzed": 434,
+    "unique_sections": 2,
+    "unique_subsections": 1,
+    "unique_parameters": 42,
+    "unique_sub_parameters": 26,
+    "unique_sub_sub_parameters": 1,
+    "unique_sides": 2,
+    "unique_items": 7,
+    "unique_value_fields": 16
+  },
+  "sections": [
+    "STEAM CONDITIONS",
+    "WATER CONDITIONS"
+  ],
+  "subsections": [
+    "INLET STEAM / OUTLET STEAM"
+  ],
+  "parameters": [
+    "Actuator Type",
+    "Air Set",
+    "Air-Fail Position",
+    "Area Classification Req",
+    "Bellows",
+    "Body Material",
+    "Client Reference",
+    "Design Press.",
+    "Design Temp.",
+    "Elec Protect. Class",
+    "Flange Material",
+    "Flow",
+    "Fluid Connection",
+    "Handwheel",
+    "Insertion Length",
+    "Instrument Type",
+    "Insulation Code",
+    "ITEM",
+    "Line Material",
+    "Line Size",
+    "Locking Device",
+    "Manufacturer",
+    "Material Code",
+    "Molecular Weight",
+    "Packing Material",
+    "PID No.",
+    "Pipe Nozzle Length",
+    "Pneumatic Supply",
+    "Position Detector",
+    "Position Transmitter",
+    "Press.",
+    "Seat Leakage Class",
+    "Service",
+    "SIL Level Required",
+    "Size",
+    "Solenoid Valve",
+    "Surge Prot Device",
+    "Tag Number",
+    "Temp.",
+    "Temp. (after Desuperheater)",
+    "Type",
+    "Weight"
+  ],
+  "sub_parameters": [
+    "Action Direction",
+    "Bonnet Type",
+    "Cooling Fins",
+    "Density",
+    "Design Pressure",
+    "Design Temp. Max.",
+    "Electrical Connection",
+    "Enclosure Protection",
+    "Filter / Press Reduce Valve",
+    "Flexibility",
+    "Input Signal",
+    "Line Number",
+    "Line Schedule",
+    "Min. / Norm. / Max. / Unit",
+    "Model No.",
+    "Piping Class",
+    "Position",
+    "Pressure Gauge / Air Volume Tank",
+    "Rating / Face",
+    "Requisition No.",
+    "Safety Certification",
+    "Schedule",
+    "Spring Range",
+    "Stem / Plug Material",
+    "Tag No.",
+    "Type"
+  ],
+  "sub_sub_parameters": [
+    "Extension"
+  ],
+  "sides": [
+    "inlet",
+    "outlet"
+  ],
+  "value_fields": [
+    "additional_value",
+    "body_material",
+    "class",
+    "face",
+    "max",
+    "min",
+    "normal",
+    "pressure",
+    "rating",
+    "schedule",
+    "size",
+    "stem_plug_material",
+    "temperature",
+    "third_value",
+    "unit",
+    "value"
+  ],
+  "parameter_hierarchy": {
+    "Actuator Type": [
+      "Spring Range"
+    ],
+    "Air Set": [
+      "Pressure Gauge / Air Volume Tank"
+    ],
+    "Area Classification Req": [
+      "Safety Certification"
+    ],
+    "Bellows": [
+      "Cooling Fins"
+    ],
+    "Body Material": [
+      "Stem / Plug Material"
+    ],
+    "Client Reference": [
+      "Requisition No."
+    ],
+    "Design Press.": [
+      "Design Temp. Max."
+    ],
+    "Design Temp.": [
+      "Design Pressure"
+    ],
+    "Elec Protect. Class": [
+      "Enclosure Protection"
+    ],
+    "Flow": [
+      "Min. / Norm. / Max. / Unit"
+    ],
+    "Fluid Connection": [
+      "Electrical Connection"
+    ],
+    "Handwheel": [
+      "Position"
+    ],
+    "Instrument Type": [
+      "Type"
+    ],
+    "Insulation Code": [
+      "Density"
+    ],
+    "Line Material": [
+      "Line Schedule"
+    ],
+    "Line Size": [
+      "Piping Class"
+    ],
+    "Locking Device": [
+      "Filter / Press Reduce Valve"
+    ],
+    "Manufacturer": [
+      "Model No."
+    ],
+    "Molecular Weight": [
+      "Density"
+    ],
+    "Packing Material": [
+      "Bonnet Type"
+    ],
+    "Pipe Nozzle Length": [
+      "Schedule"
+    ],
+    "Position Detector": [
+      "Tag No."
+    ],
+    "Position Transmitter": [
+      "Tag No."
+    ],
+    "Press.": [
+      "Min. / Norm. / Max. / Unit"
+    ],
+    "SIL Level Required": [
+      "Line Number"
+    ],
+    "Size": [
+      "Rating / Face"
+    ],
+    "Solenoid Valve": [
+      "Tag No."
+    ],
+    "Surge Prot Device": [
+      "Action Direction"
+    ],
+    "Temp.": [
+      "Min. / Norm. / Max. / Unit"
+    ],
+    "Temp. (after Desuperheater)": [
+      "Flexibility"
+    ],
+    "Type": [
+      "Input Signal"
+    ]
+  },
+  "section_hierarchy": {
+    "STEAM CONDITIONS": [
+      "Body Material",
+      "Design Press.",
+      "Flange Material",
+      "Flow",
+      "Insertion Length",
+      "Insulation Code",
+      "Line Material",
+      "Line Size",
+      "Molecular Weight",
+      "Pipe Nozzle Length",
+      "Press.",
+      "Size",
+      "Temp.",
+      "Temp. (after Desuperheater)"
+    ],
+    "WATER CONDITIONS": [
+      "Actuator Type",
+      "Air Set",
+      "Air-Fail Position",
+      "Area Classification Req",
+      "Bellows",
+      "Body Material",
+      "Client Reference",
+      "Design Temp.",
+      "Elec Protect. Class",
+      "Flow",
+      "Fluid Connection",
+      "Handwheel",
+      "Instrument Type",
+      "Insulation Code",
+      "Line Material",
+      "Line Size",
+      "Locking Device",
+      "Manufacturer",
+      "Material Code",
+      "Packing Material",
+      "Pneumatic Supply",
+      "Position Detector",
+      "Position Transmitter",
+      "Press.",
+      "Seat Leakage Class",
+      "Size",
+      "Solenoid Valve",
+      "Surge Prot Device",
+      "Temp.",
+      "Type",
+      "Weight"
+    ]
+  },
+  "subsection_hierarchy": {
+    "INLET STEAM / OUTLET STEAM": [
+      "Body Material",
+      "Design Press.",
+      "Flange Material",
+      "Flow",
+      "Insertion Length",
+      "Insulation Code",
+      "Line Material",
+      "Line Size",
+      "Molecular Weight",
+      "Pipe Nozzle Length",
+      "Press.",
+      "Size",
+      "Temp.",
+      "Temp. (after Desuperheater)"
+    ]
+  },
+  "parameter_sections": {
+    "Actuator Type": [
+      "WATER CONDITIONS"
+    ],
+    "Air Set": [
+      "WATER CONDITIONS"
+    ],
+    "Air-Fail Position": [
+      "WATER CONDITIONS"
+    ],
+    "Area Classification Req": [
+      "WATER CONDITIONS"
+    ],
+    "Bellows": [
+      "WATER CONDITIONS"
+    ],
+    "Body Material": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Client Reference": [
+      "WATER CONDITIONS"
+    ],
+    "Design Press.": [
+      "STEAM CONDITIONS"
+    ],
+    "Design Temp.": [
+      "WATER CONDITIONS"
+    ],
+    "Elec Protect. Class": [
+      "WATER CONDITIONS"
+    ],
+    "Flange Material": [
+      "STEAM CONDITIONS"
+    ],
+    "Flow": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Fluid Connection": [
+      "WATER CONDITIONS"
+    ],
+    "Handwheel": [
+      "WATER CONDITIONS"
+    ],
+    "Insertion Length": [
+      "STEAM CONDITIONS"
+    ],
+    "Instrument Type": [
+      "WATER CONDITIONS"
+    ],
+    "Insulation Code": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Line Material": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Line Size": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Locking Device": [
+      "WATER CONDITIONS"
+    ],
+    "Manufacturer": [
+      "WATER CONDITIONS"
+    ],
+    "Material Code": [
+      "WATER CONDITIONS"
+    ],
+    "Molecular Weight": [
+      "STEAM CONDITIONS"
+    ],
+    "Packing Material": [
+      "WATER CONDITIONS"
+    ],
+    "Pipe Nozzle Length": [
+      "STEAM CONDITIONS"
+    ],
+    "Pneumatic Supply": [
+      "WATER CONDITIONS"
+    ],
+    "Position Detector": [
+      "WATER CONDITIONS"
+    ],
+    "Position Transmitter": [
+      "WATER CONDITIONS"
+    ],
+    "Press.": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Seat Leakage Class": [
+      "WATER CONDITIONS"
+    ],
+    "Size": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Solenoid Valve": [
+      "WATER CONDITIONS"
+    ],
+    "Surge Prot Device": [
+      "WATER CONDITIONS"
+    ],
+    "Temp.": [
+      "STEAM CONDITIONS",
+      "WATER CONDITIONS"
+    ],
+    "Temp. (after Desuperheater)": [
+      "STEAM CONDITIONS"
+    ],
+    "Type": [
+      "WATER CONDITIONS"
+    ],
+    "Weight": [
+      "WATER CONDITIONS"
+    ]
+  },
+  "parameter_sides": {
+    "Body Material": [
+      "inlet",
+      "outlet"
+    ],
+    "Design Press.": [
+      "inlet",
+      "outlet"
+    ],
+    "Flow": [
+      "inlet",
+      "outlet"
+    ],
+    "Line Material": [
+      "inlet",
+      "outlet"
+    ],
+    "Line Size": [
+      "inlet",
+      "outlet"
+    ],
+    "Molecular Weight": [
+      "inlet",
+      "outlet"
+    ],
+    "Pipe Nozzle Length": [
+      "inlet",
+      "outlet"
+    ],
+    "Press.": [
+      "inlet",
+      "outlet"
+    ],
+    "Size": [
+      "inlet"
+    ],
+    "Temp.": [
+      "inlet",
+      "outlet"
+    ]
+  }
+}
