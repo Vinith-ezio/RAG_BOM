@@ -1,0 +1,3213 @@
+{
+  "schema": {
+    "name": "complex-table-rag-dataset",
+    "version": "1.0"
+  },
+  "dataset": {
+    "dataset_name": "desuperheater_instrument_specifications",
+    "description": "Seven manually transcribed complex instrument specification tables for retrieval/RAG development.",
+    "document_name": "Instrument Specification - Desuperheater",
+    "page_count": 7,
+    "total_rows": 406,
+    "source_type": "uploaded_screenshot",
+    "extraction_method": "manual_visual_transcription",
+    "llm_used": false
+  },
+  "pages": [
+    {
+      "page": 1,
+      "table_id": "instrument_specification_page_1",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 6\"300RF-INTEG TCV 1\"300RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "6\"",
+            "class": "A2A"
+          },
+          "outlet": {
+            "value": "6\"",
+            "class": "A2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          },
+          "outlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "1500",
+            "normal": "2500",
+            "max": "5000",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "200",
+            "normal": "250",
+            "max": "280",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "150",
+            "normal": "165",
+            "max": "170",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "4",
+            "normal": "5",
+            "max": "6",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "3.5",
+            "normal": "4",
+            "max": "4.5",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "16.5"
+          },
+          "outlet": {
+            "value": "280"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216 WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "6\"",
+            "rating": "300#",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "*"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "D2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "105",
+          "normal": "105",
+          "max": "110",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "30",
+          "normal": "30",
+          "max": "31",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "130",
+          "pressure": "44"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A105N",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "300",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132077"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    },
+    {
+      "page": 2,
+      "table_id": "instrument_specification_page_2",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 6\"300RF-INTEG TCV 1\"600RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "6\"",
+            "class": "A2A"
+          },
+          "outlet": {
+            "value": "6\"",
+            "class": "A2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          },
+          "outlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "1500",
+            "normal": "2500",
+            "max": "5000",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "200",
+            "normal": "250",
+            "max": "280",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "150",
+            "normal": "165",
+            "max": "180",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "4",
+            "normal": "5",
+            "max": "6",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "3",
+            "normal": "3.5",
+            "max": "5",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "16.5"
+          },
+          "outlet": {
+            "value": "320"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "6\"",
+            "rating": "300#",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "*"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "D2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "105",
+          "normal": "105",
+          "max": "110",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "30",
+          "normal": "30",
+          "max": "31",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "130",
+          "pressure": "44"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A105N",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "300",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132581"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    },
+    {
+      "page": 3,
+      "table_id": "instrument_specification_page_3",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 4\"300RF-NON INTEG TCV 1\"600RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "4\"",
+            "class": "A2A"
+          },
+          "outlet": {
+            "value": "4\"",
+            "class": "A2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          },
+          "outlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "400",
+            "normal": "500",
+            "max": "750",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "300",
+            "normal": "300",
+            "max": "343",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "150",
+            "normal": "180",
+            "max": "180",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "5",
+            "normal": "5",
+            "max": "6",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "3",
+            "normal": "3.5",
+            "max": "5",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "16.5"
+          },
+          "outlet": {
+            "value": "320"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "4\"",
+            "rating": "300#",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "*"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "D2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "105",
+          "normal": "105",
+          "max": "110",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "30",
+          "normal": "30",
+          "max": "31",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "170",
+          "pressure": "78.3"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A105N",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "600",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132603"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    },
+    {
+      "page": 4,
+      "table_id": "instrument_specification_page_4",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 20\"300RF-NON INTEG TCV 1\"600RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "20\"",
+            "class": "B2A"
+          },
+          "outlet": {
+            "value": "20\"",
+            "class": "B2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A672GR.B60CL.12",
+            "schedule": "XS"
+          },
+          "outlet": {
+            "value": "A672GR.B60CL.12",
+            "schedule": "XS"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "34840",
+            "normal": "93950",
+            "max": "180950",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "264",
+            "normal": "291",
+            "max": "350",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "250",
+            "normal": "275",
+            "max": "330",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "10",
+            "normal": "14",
+            "max": "13.2",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "17"
+          },
+          "outlet": {
+            "value": "350"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "20\"",
+            "rating": "300#",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "*"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "D2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "105",
+          "normal": "105",
+          "max": "110",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "30",
+          "normal": "30",
+          "max": "31",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "170",
+          "pressure": "78.3"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A105N",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "600",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132620"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    },
+    {
+      "page": 5,
+      "table_id": "instrument_specification_page_5",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 12\"300RF-INTEG TCV 1\"300RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "12\"",
+            "class": "A2A"
+          },
+          "outlet": {
+            "value": "12\"",
+            "class": "A2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          },
+          "outlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "2500",
+            "normal": "14150",
+            "max": "16380",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "216",
+            "normal": "262",
+            "max": "263",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "150",
+            "normal": "165",
+            "max": "170",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "4.5",
+            "normal": "5",
+            "max": "5.5",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "3",
+            "normal": "4",
+            "max": "4.5",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "16.5"
+          },
+          "outlet": {
+            "value": "280"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "12\"",
+            "rating": "300#",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "*"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "B2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "105",
+          "normal": "105",
+          "max": "110",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "30",
+          "normal": "30",
+          "max": "31",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "130",
+          "pressure": "44"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A105N",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "300",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132646"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    },
+    {
+      "page": 6,
+      "table_id": "instrument_specification_page_6",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 3\"300RF-INTEG TCV 1\"300RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "3\"",
+            "class": "B2A"
+          },
+          "outlet": {
+            "value": "3\"",
+            "class": "B2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          },
+          "outlet": {
+            "value": "A106 Gr.B",
+            "schedule": "STD"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "250",
+            "normal": "800",
+            "max": "1000",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "415",
+            "normal": "454",
+            "max": "460",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "350",
+            "normal": "350",
+            "max": "350",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "13",
+            "normal": "13",
+            "max": "13",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "16.5"
+          },
+          "outlet": {
+            "value": "280"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "3\"",
+            "rating": "300",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "*"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "B2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "105",
+          "normal": "105",
+          "max": "110",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "30",
+          "normal": "30",
+          "max": "31",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "130",
+          "pressure": "44"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A105N",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "300",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132689"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    },
+    {
+      "page": 7,
+      "table_id": "instrument_specification_page_7",
+      "title": "INSTRUMENT SPECIFICATION",
+      "equipment": "Desuperheater",
+      "row_count": 58,
+      "rows": [
+        {
+          "no": 1,
+          "parameter": "Tag Number",
+          "value": "TBA"
+        },
+        {
+          "no": 2,
+          "parameter": "Service",
+          "value": "TBA"
+        },
+        {
+          "no": 3,
+          "parameter": "PID No.",
+          "value": "TBA"
+        },
+        {
+          "no": 4,
+          "parameter": "ITEM",
+          "value": "DSH 24\"300RF-NON INTEG TCV 1\"300RF-HART"
+        },
+        {
+          "no": 5,
+          "parameter": "SIL Level Required",
+          "sub_parameter": "Line Number",
+          "value": "NA",
+          "additional_value": "TBA"
+        },
+        {
+          "no": 6,
+          "parameter": "STEAM CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 7,
+          "parameter": "INLET STEAM / OUTLET STEAM",
+          "type": "subsection_header"
+        },
+        {
+          "no": 8,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "inlet": {
+            "value": "24\"",
+            "class": "B2A"
+          },
+          "outlet": {
+            "value": "24\"",
+            "class": "B2A"
+          }
+        },
+        {
+          "no": 9,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "inlet": {
+            "value": "A672GR.B60CL.12",
+            "schedule": "XS"
+          },
+          "outlet": {
+            "value": "A672GR.B60CL.12",
+            "schedule": "XS"
+          }
+        },
+        {
+          "no": 10,
+          "parameter": "Insulation Code",
+          "value": null
+        },
+        {
+          "no": 11,
+          "parameter": "Molecular Weight",
+          "sub_parameter": "Density",
+          "inlet": {
+            "value": "18.015"
+          },
+          "outlet": {
+            "value": "18.015"
+          }
+        },
+        {
+          "no": 12,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "34840",
+            "normal": "93950",
+            "max": "180950",
+            "unit": "KG/HR"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/HR"
+          }
+        },
+        {
+          "no": 13,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "264",
+            "normal": "291",
+            "max": "350",
+            "unit": "DEG C"
+          },
+          "outlet": {
+            "min": "250",
+            "normal": "275",
+            "max": "330",
+            "unit": "DEG C"
+          }
+        },
+        {
+          "no": 14,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "inlet": {
+            "min": "10",
+            "normal": "11",
+            "max": "13.2",
+            "unit": "KG/CM2G"
+          },
+          "outlet": {
+            "min": "*",
+            "normal": "*",
+            "max": "*",
+            "unit": "KG/CM2G"
+          }
+        },
+        {
+          "no": 15,
+          "parameter": "Temp. (after Desuperheater)",
+          "sub_parameter": "Flexibility",
+          "value": null
+        },
+        {
+          "no": 16,
+          "parameter": "Design Press.",
+          "sub_parameter": "Design Temp. Max.",
+          "inlet": {
+            "value": "17"
+          },
+          "outlet": {
+            "value": "350"
+          }
+        },
+        {
+          "no": 17,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "inlet": {
+            "value": "A216WCB"
+          },
+          "outlet": {
+            "value": "SS316"
+          }
+        },
+        {
+          "no": 18,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "inlet": {
+            "size": "20\"",
+            "rating": "300#",
+            "face": "RF"
+          },
+          "outlet": {}
+        },
+        {
+          "no": 19,
+          "parameter": "Pipe Nozzle Length",
+          "sub_parameter": "Schedule",
+          "inlet": {
+            "value": "*"
+          },
+          "outlet": {
+            "value": "XS"
+          }
+        },
+        {
+          "no": 20,
+          "parameter": "Insertion Length",
+          "value": "*"
+        },
+        {
+          "no": 21,
+          "parameter": "Flange Material",
+          "value": "A105N"
+        },
+        {
+          "no": 22,
+          "parameter": "WATER CONDITIONS",
+          "type": "section_header"
+        },
+        {
+          "no": 23,
+          "parameter": "Line Size",
+          "sub_parameter": "Piping Class",
+          "value": "1\"",
+          "class": "D2A"
+        },
+        {
+          "no": 24,
+          "parameter": "Line Material",
+          "sub_parameter": "Line Schedule",
+          "value": "A106 Gr.B",
+          "schedule": "XS"
+        },
+        {
+          "no": 25,
+          "parameter": "Insulation Code",
+          "sub_parameter": "Density",
+          "value": null
+        },
+        {
+          "no": 26,
+          "parameter": "Flow",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "*",
+          "max": "*",
+          "unit": "KG/HR"
+        },
+        {
+          "no": 27,
+          "parameter": "Temp.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "105",
+          "max": "170",
+          "unit": "DEG C"
+        },
+        {
+          "no": 28,
+          "parameter": "Press.",
+          "sub_parameter": "Min. / Norm. / Max. / Unit",
+          "min": "*",
+          "normal": "61",
+          "max": "78",
+          "unit": "KG/CM2G"
+        },
+        {
+          "no": 29,
+          "parameter": "Design Temp.",
+          "sub_parameter": "Design Pressure",
+          "temperature": "170",
+          "pressure": "78.3"
+        },
+        {
+          "no": 30,
+          "parameter": "Body Material",
+          "sub_parameter": "Stem / Plug Material",
+          "body_material": "A216WCB",
+          "stem_plug_material": "SS316 (STELLITE)"
+        },
+        {
+          "no": 31,
+          "parameter": "Size",
+          "sub_parameter": "Rating / Face",
+          "size": "1\"",
+          "rating": "600",
+          "face": "RF"
+        },
+        {
+          "no": 32,
+          "parameter": "Seat Leakage Class",
+          "value": "IV"
+        },
+        {
+          "no": 33,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 34,
+          "parameter": null,
+          "value": null
+        },
+        {
+          "no": 35,
+          "parameter": "Area Classification Req",
+          "sub_parameter": "Safety Certification",
+          "value": "IEC ZONE 1 IIC T3",
+          "additional_value": "Ex-ia"
+        },
+        {
+          "no": 36,
+          "parameter": "Instrument Type",
+          "sub_parameter": "Type",
+          "value": null
+        },
+        {
+          "no": 37,
+          "parameter": "Packing Material",
+          "sub_parameter": "Bonnet Type",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 38,
+          "parameter": "Bellows",
+          "sub_parameter": "Cooling Fins",
+          "sub_sub_parameter": "Extension",
+          "value": "NA",
+          "additional_value": "NA",
+          "third_value": "NA"
+        },
+        {
+          "no": 39,
+          "parameter": "Air-Fail Position",
+          "value": "OPEN"
+        },
+        {
+          "no": 40,
+          "parameter": "Actuator Type",
+          "sub_parameter": "Spring Range",
+          "value": "SPRING & DIAPHRAGM",
+          "additional_value": "*"
+        },
+        {
+          "no": 41,
+          "parameter": "Pneumatic Supply",
+          "value": "3.5 KG/CM2G (MIN), 4.0 KG/CM2G (NOR)"
+        },
+        {
+          "no": 42,
+          "parameter": "Type",
+          "sub_parameter": "Input Signal",
+          "value": "4-20MA SMART HART 7",
+          "additional_value": "*"
+        },
+        {
+          "no": 43,
+          "parameter": "Fluid Connection",
+          "sub_parameter": "Electrical Connection",
+          "value": "*",
+          "additional_value": "1/2\"NPT"
+        },
+        {
+          "no": 44,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "Ex-ia",
+          "additional_value": "IP 67"
+        },
+        {
+          "no": 45,
+          "parameter": "Surge Prot Device",
+          "sub_parameter": "Action Direction",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 46,
+          "parameter": "Handwheel",
+          "sub_parameter": "Position",
+          "value": "YES",
+          "additional_value": "*"
+        },
+        {
+          "no": 47,
+          "parameter": "Locking Device",
+          "sub_parameter": "Filter / Press Reduce Valve",
+          "value": "NA",
+          "additional_value": "*",
+          "third_value": "*"
+        },
+        {
+          "no": 48,
+          "parameter": "Air Set",
+          "sub_parameter": "Pressure Gauge / Air Volume Tank",
+          "value": "YES, SS316, 5 MICRON SS",
+          "additional_value": "50MM",
+          "third_value": "NA"
+        },
+        {
+          "no": 49,
+          "parameter": "Solenoid Valve",
+          "sub_parameter": "Tag No.",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 50,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 51,
+          "parameter": "Position Detector",
+          "sub_parameter": "Tag No.",
+          "value": "*",
+          "additional_value": "NA"
+        },
+        {
+          "no": 52,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 53,
+          "parameter": "Position Transmitter",
+          "sub_parameter": "Tag No.",
+          "value": "INCLUDED WITH POSITIONER",
+          "additional_value": "NA"
+        },
+        {
+          "no": 54,
+          "parameter": "Elec Protect. Class",
+          "sub_parameter": "Enclosure Protection",
+          "value": "NA",
+          "additional_value": "NA"
+        },
+        {
+          "no": 55,
+          "parameter": "Weight",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 56,
+          "parameter": "Manufacturer",
+          "sub_parameter": "Model No.",
+          "value": "*",
+          "additional_value": "*"
+        },
+        {
+          "no": 57,
+          "parameter": "Client Reference",
+          "sub_parameter": "Requisition No.",
+          "value": "NA",
+          "additional_value": "*"
+        },
+        {
+          "no": 58,
+          "parameter": "Material Code",
+          "value": "TC9765132700"
+        }
+      ],
+      "notes": [
+        "TBA: To be Assigned.",
+        "*: Vendor to Assign.",
+        "IBR Certification is applicable for Desuperheater & Temperature Control Valve.",
+        "Following tests required: - MATERIAL TEST CERTIFICATE FOR TRIM AND BODY AS PER EN 3.1, - IGC-E FOR TRIM, - RADIOGRAPHY FOR CASTING, - DPM/PM FOR CASTING, - PMI FOR ASSEMBLED VALVES IF SS BODY, - HYDROTEST",
+        "Painting shall be as per attached Painting Specification"
+      ]
+    }
+  ]
+}
